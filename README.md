@@ -11,15 +11,15 @@ Describe the performance of an algorithm.
    * **O(2^n)**: exponential runtime.
 
 ### Array
-* Linked List
-* Stack
-* Queue
-* Binary Tree
-* Binary Search Tree
-* Heap
-* Hash Table
-* Hashing
-* Graph
+### Linked List
+### Stack
+### Queue
+### Binary Tree
+### Binary Search Tree
+### Heap
+### Hash Table
+### Hashing
+### Graph
 
 ## Advanced
 * Advanced Lists
