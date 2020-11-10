@@ -1,6 +1,8 @@
 # Data Structure
 
-* Big O notation
+### Big O Notation
+**Big O Notation** describe the performance of an algorithm.
+
 * Array
 * Linked List
 * Stack
