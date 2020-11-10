@@ -1,18 +1,18 @@
 # Data Structure
 
 ### Big O Notation
-Describe the performance of an algorithm.
 ![](https://github.com/shamy1st/data-structure/blob/main/images/big-o.png)
 
-* **O(1)**: constant runtime.
+Describe the performance of an algorithm.
+  * **O(1)**: constant runtime.
 
-* **O(n)**: linear runtime.
+  * **O(n)**: linear runtime.
 
-* **O(n^2)**: quadratic runtime.
+  * **O(n^2)**: quadratic runtime.
 
-* **O(log n)**: logarithmic runtime.
+  * **O(log n)**: logarithmic runtime.
 
-* **O(2^n)**: exponential runtime.
+  * **O(2^n)**: exponential runtime.
 
 ### Array
 * Linked List
