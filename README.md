@@ -3,6 +3,7 @@
 ### Big O Notation
 ![](https://github.com/shamy1st/data-structure/blob/main/images/big-o.png)
 Describe the performance of an algorithm.
+
     * **O(1)**: constant runtime.
     * **O(n)**: linear runtime.
     * **O(n^2)**: quadratic runtime.
