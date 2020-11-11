@@ -3,7 +3,7 @@
 ### Big O Notation
 ![](https://github.com/shamy1st/data-structure/blob/main/images/big-o.png)
 
-Describe the performance (time or space) of an algorithm.
+describe the performance (time or space) of an algorithm.
    * **O(1)**: constant (time or space).
    * **O(n)**: linear (time or space).
    * **O(n^2)**: quadratic (time or space).
@@ -11,11 +11,13 @@ Describe the performance (time or space) of an algorithm.
    * **O(2^n)**: exponential (time or space).
 
 ### Array
-* **get(index)** - O(1)
-* **search(value)** - O(n)
-* **insert** - O(n)
-* **remove(index)** - O(n)
-
+![](https://github.com/shamy1st/data-structure/blob/main/images/array.png)
+simplest data structure
+    * **get(index)** - O(1)
+    * **search(value)** - O(n)
+    * **insert** - O(n)
+    * **remove(index)** - O(n)
+    
         public class Main {
             public static void main(String[] args) {
                 Array array = new Array(3);
