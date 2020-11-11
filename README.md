@@ -24,6 +24,9 @@ Doubly Linked List | O(n)     | O(n)   | O(1)   | O(n)
 Singly Linked List | O(1)     | O(n)      | O(1)    | O(1)        | O(n)         | O(n)
 Doubly Linked List | O(1)     | O(n)      | O(1)    | O(1)        | O(n)         | O(1)
 
+--    | push | pop | peek | isEmpty
+------|------|-----|------|--------
+Stack | O(1) | O(1)| O(1) | O(1)
 
 ### Array
 ![](https://github.com/shamy1st/data-structure/blob/main/images/array.png)
