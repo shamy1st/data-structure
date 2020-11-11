@@ -28,6 +28,11 @@ Doubly Linked List | O(1)     | O(n)      | O(1)    | O(1)        | O(n)        
 ------|------|-----|------|--------
 Stack | O(1) | O(1)| O(1) | O(1)
 
+--    | enqueue | dequeue | peek | isEmpty | isFull
+------|---------|---------|------|---------|-------
+Queue | O(1)    | O(1)    | O(1) | O(1)    | O(1)
+
+
 ### Array
 ![](https://github.com/shamy1st/data-structure/blob/main/images/array.png)
 
@@ -279,6 +284,14 @@ Stack | O(1) | O(1)| O(1) | O(1)
         }
 
 ### Queue
+![](https://github.com/shamy1st/data-structure/blob/main/images/queue.png)
+
+--    | enqueue | dequeue | peek | isEmpty | isFull
+------|---------|---------|------|---------|-------
+Queue | O(1)    | O(1)    | O(1) | O(1)    | O(1)
+
+
+
 ### Binary Tree
 ### Binary Search Tree
 ### Heap
