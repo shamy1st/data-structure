@@ -93,12 +93,18 @@ Dynamic Array      | O(1)     | O(n)   | O(n)   | O(n)
 
 ### Linked List
 ![](https://github.com/shamy1st/data-structure/blob/main/images/linkedlist.png)
-![](https://github.com/shamy1st/data-structure/blob/main/images/singly-doubly-linkedlist.png)
 
---                 | indexing | search | addFirst | addMiddle | addLast | removeFirst | removeMiddle | removeLast
--------------------|----------|--------|----------|-----------|---------|-------------|--------------|-----------
-Singly Linked List | O(n)     | O(n)   | O(1)     | O(n)      | O(1)    | O(1)        | O(n)         | O(n)
-Doubly Linked List | O(n)     | O(n)   | O(1)     | O(n)      | O(1)    | O(1)        | O(n)         | O(1)
+--                 | indexing | search | add    | remove(index or value)
+-------------------|----------|--------|--------|-----------------------
+Singly Linked List | O(n)     | O(n)   | O(1)   | O(n)
+Doubly Linked List | O(n)     | O(n)   | O(1)   | O(n)
+
+--                 | addFirst | addMiddle | addLast | removeFirst | removeMiddle | removeLast
+-------------------|----------|-----------|---------|-------------|--------------|-----------
+Singly Linked List | O(1)     | O(n)      | O(1)    | O(1)        | O(n)         | O(n)
+Doubly Linked List | O(1)     | O(n)      | O(1)    | O(1)        | O(n)         | O(1)
+
+![](https://github.com/shamy1st/data-structure/blob/main/images/singly-doubly-linkedlist.png)
 
         public class Main {
             public static void main(String[] args) {
