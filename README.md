@@ -75,6 +75,9 @@ Describe the performance (time or space) of an algorithm.
         }
 
 ### Linked List
+![](https://github.com/shamy1st/data-structure/blob/main/images/linkedlist.png)
+
+
 ### Stack
 ### Queue
 ### Binary Tree
