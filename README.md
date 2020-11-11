@@ -434,7 +434,82 @@ Queue | O(1)    | O(1)    | O(1) | O(1)    | O(1)
             }
         }
   
+* **Priority Queue**: items are sorted
 
+  * **with Array**
+  
+        public class Main {
+            public static void main(String[] args) {
+                PriorityQueue queue = new PriorityQueue(5);
+                queue.add(5);
+                queue.add(3);
+                queue.add(1);
+                queue.add(2);
+                queue.add(4);
+                System.out.println(queue.remove());
+                System.out.println(queue.remove());
+                System.out.println(queue);
+            }
+        }
+
+        public class PriorityQueue {
+            private int[] items;
+            private int count;
+
+            public PriorityQueue(int capacity) {
+                items = new int[capacity];
+            }
+
+            //O(n)
+            public void add(int item) {
+                if(isFull())
+                    throw new IllegalStateException();
+
+                //O(n)
+                int index = shiftItemsToInsert(item);
+                items[index] = item;
+                count++;
+            }
+
+            //O(1)
+            public int remove() {
+                if(isEmpty())
+                    throw new NullPointerException();
+
+                int item = items[count-1];
+                items[--count] = 0;
+                return item;
+            }
+
+            public boolean isEmpty() {
+                return count == 0;
+            }
+
+            public boolean isFull() {
+                return count == items.length;
+            }
+
+            @Override
+            public String toString() {
+                return "PriorityQueue{" + Arrays.toString(items) + "}";
+            }
+
+            private int shiftItemsToInsert(int item) {
+                int index;
+                for(index=count-1;index>=0;index--) {
+                    items[index+1] = items[index];
+                    if(items[index] < item) {
+                        break;
+                    }
+                }
+                return index+1;
+            }
+        }
+  
+  * **with Heap**
+  
+  
+  
 
 ### Binary Tree
 ### Binary Search Tree
