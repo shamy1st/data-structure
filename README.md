@@ -291,6 +291,48 @@ Stack | O(1) | O(1)| O(1) | O(1)
 Queue | O(1)    | O(1)    | O(1) | O(1)    | O(1)
 
 
+* **Queue Interface with ArrayDeque** (Double Ended Queue)
+
+        public class Main {
+            public static void main(String[] args) {
+                Queue<Integer> queue = new ArrayDeque<>();
+
+                queue.add(10); //enqueue item, if queue is full throw exception
+                queue.offer(20); //enqueue item, doesn't throw exception
+
+                queue.remove(); //dequeue item, if queue is empty throw exception
+                queue.poll(); //dequeue item, doesn't throw exception
+
+                queue.element(); //return front item, if queue is empty throw exception
+                queue.peek(); //return front item, if queue is empty return null
+            }
+        }
+
+* **Queue Interface with LinkedList** 
+
+* **Reverse a Queue** (using Stack)
+
+        public class Main {
+            public static void main(String[] args) {
+                Queue<Integer> queue = new ArrayDeque<>();
+                queue.add(10);
+                queue.add(20);
+                queue.add(30);
+                System.out.println(queue);
+                System.out.println(reverse(queue));
+            }
+
+            public static Queue<Integer> reverse(Queue<Integer> queue) {
+                Stack<Integer> stack = new Stack<>();
+                while(!queue.isEmpty())
+                    stack.push(queue.remove());
+
+                while(!stack.isEmpty())
+                    queue.add(stack.pop());
+
+                return queue;
+            }
+        }
 
 ### Binary Tree
 ### Binary Search Tree
