@@ -10,6 +10,10 @@ describe the performance (time or space) of an algorithm.
    * **O(log n)**: logarithmic (time or space).
    * **O(2^n)**: exponential (time or space).
 
+### Cheatsheet
+![](https://github.com/shamy1st/data-structure/blob/main/images/cheatsheet.png)
+https://www.hackerearth.com/practice/notes/big-o-cheatsheet-series-data-structures-and-algorithms-with-thier-complexities-1/
+
 ### Array
 ![](https://github.com/shamy1st/data-structure/blob/main/images/array.png)
 simplest data structure
@@ -78,6 +82,8 @@ simplest data structure
 
 ### Linked List
 ![](https://github.com/shamy1st/data-structure/blob/main/images/linkedlist.png)
+
+
 
 
 ### Stack
