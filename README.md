@@ -667,15 +667,18 @@ Map | O(1)| O(1)   | O(1)| O(1)        | O(n)
         }
   
   * **Open Addressing**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/probing.png)
   
     * **Linear Probing**
-    
+    ![](https://github.com/shamy1st/data-structure/blob/main/images/linear-probing.png)
     
     * **Quadratic Probing**
-    
+    ![](https://github.com/shamy1st/data-structure/blob/main/images/quadratic-probing.png)
+    ![](https://github.com/shamy1st/data-structure/blob/main/images/quadratic-probing-2.png)
     
     * **Double Hashing**
-    
+    ![](https://github.com/shamy1st/data-structure/blob/main/images/double-hashing.png)
+    ![](https://github.com/shamy1st/data-structure/blob/main/images/double-hashing-2.png)
     
 
 ### Hashing
