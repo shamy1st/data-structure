@@ -11,6 +11,7 @@ Describe the performance (time or space) of an algorithm.
    * **O(2^n)**: exponential (time or space).
 
 ### Array
+simplest data structure
   * get(index) - O(1)
   * search(value) - O(n)
   * insert - O(n)
