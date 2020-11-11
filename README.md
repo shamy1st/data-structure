@@ -228,7 +228,9 @@ Doubly Linked List | O(1)     | O(n)      | O(1)    | O(1)        | O(n)        
 ### Stack
 ![](https://github.com/shamy1st/data-structure/blob/main/images/stack.png)
 
-
+--    | push | pop | peek | isEmpty
+------|------|-----|------|--------
+Stack | O(1) | O(1)| O(1) | O(1)
 
         public class Main {
             public static void main(String[] args) {
