@@ -11,10 +11,10 @@ Describe the performance (time or space) of an algorithm.
    * **O(2^n)**: exponential (time or space).
 
 ### Array
-* get(index) - O(1)
-* search(value) - O(n)
-* insert - O(n)
-* remove - O(n)
+  * get(index) - O(1)
+  * search(value) - O(n)
+  * insert - O(n)
+  * remove - O(n)
 
         public class Main {
             public static void main(String[] args) {
