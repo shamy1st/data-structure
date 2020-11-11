@@ -33,6 +33,11 @@ Stack | O(1) | O(1)| O(1) | O(1)
 Queue         | O(1)    | O(1)    | O(1) | O(1)    | O(1)
 PriorityQueue | O(n)    | O(1)    | O(1) | O(1)    | O(1)
 
+--  | put | remove | get | containsKey | containsValue
+----|-----|--------|-----|-------------|--------------
+Map | O(1)| O(1)   | O(1)| O(1)        | O(n)
+
+## Linear Data-Structure
 
 ### Array
 ![](https://github.com/shamy1st/data-structure/blob/main/images/array.png)
@@ -511,7 +516,7 @@ PriorityQueue | O(n)    | O(1)    | O(1) | O(1)    | O(1)
   * **with Heap**
   
 
-### Hash Table
+### Hashing
 ![](https://github.com/shamy1st/data-structure/blob/main/images/hashtable.png)
 
 --  | put | remove | get | containsKey | containsValue
@@ -679,24 +684,24 @@ Map | O(1)| O(1)   | O(1)| O(1)        | O(n)
     * **Double Hashing**
     ![](https://github.com/shamy1st/data-structure/blob/main/images/double-hashing.png)
     ![](https://github.com/shamy1st/data-structure/blob/main/images/double-hashing-2.png)
-    
 
-### Hashing
+## Non-Linear Data-Structure
+
 ### Binary Tree
 ### Binary Search Tree
+### AVL Tree
 ### Heap
+### Trie
 ### Graph
 
 ## Advanced
 * Advanced Lists
-* Trie
 * Matrix
 * Misc
 * Segment Tree
 * Binary Indexed Tree
 * Suffix Array
 * Suffix Tree
-* AVL Tree
 * Splay Tree
 * B Tree
 * Red-Black Tree
