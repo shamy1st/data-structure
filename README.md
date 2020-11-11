@@ -333,6 +333,72 @@ Queue | O(1)    | O(1)    | O(1) | O(1)    | O(1)
             }
         }
 
+* **Queue Implementation**
+  * **with Array**
+  
+        public class Main {
+            public static void main(String[] args) {
+                Queue<Integer> queue = new Queue<>(5);
+                queue.enqueue(10);
+                queue.enqueue(20);
+                queue.enqueue(30);
+                queue.dequeue();
+                System.out.println(queue);
+            }
+        }
+
+        public class Queue<T> {
+            private T[] items;
+            private int front;
+            private int rear;
+            private int count;
+
+            public Queue(int capacity) {
+                items = (T[]) new Object[capacity];
+            }
+
+            public void enqueue(T item) {
+                if(count == items.length)
+                    throw new IllegalStateException();
+                items[rear] = item;
+                rear = (rear + 1) % items.length;
+                count++;
+            }
+
+            public T dequeue() {
+                if(count == 0)
+                    throw new NullPointerException();
+                count--;
+                T item = items[front];
+                items[front] = null;
+                front = (front + 1) % items.length;
+                return item;
+            }
+
+            public boolean isEmpty() {
+                return count == 0;
+            }
+
+            public boolean isFull() {
+                return count == items.length;
+            }
+
+            @Override
+            public String toString() {
+                return "Queue{" + Arrays.toString(items) + "}";
+            }
+        }
+  
+  * **with LinkedList**
+  
+  
+  
+  * **with Stack**
+  
+  
+  
+
+
 ### Binary Tree
 ### Binary Search Tree
 ### Heap
