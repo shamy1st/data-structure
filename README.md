@@ -27,11 +27,11 @@ Doubly Linked List | O(1)     | O(n)      | O(1)    | O(1)        | O(n)        
 
 ### Array
 ![](https://github.com/shamy1st/data-structure/blob/main/images/array.png)
-simplest data structure
-  * **get(index)** - O(1)
-  * **search(value)** - O(n)
-  * **insert** - O(n)
-  * **remove(index)** - O(n)
+
+--                 | indexing | search | add    | remove(index or value)
+-------------------|----------|--------|--------|-----------------------
+Basic Array        | O(1)     | O(n)   | -      | -
+Dynamic Array      | O(1)     | O(n)   | O(n)   | O(n)
     
         public class Main {
             public static void main(String[] args) {
