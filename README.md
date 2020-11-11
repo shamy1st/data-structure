@@ -391,11 +391,48 @@ Queue | O(1)    | O(1)    | O(1) | O(1)    | O(1)
   
   * **with LinkedList**
   
-  
-  
   * **with Stack**
   
-  
+        public class Main {
+            public static void main(String[] args) {
+                Queue<Integer> queue = new Queue<>();
+                queue.enqueue(10);
+                queue.enqueue(20);
+                queue.enqueue(30);
+                System.out.println(queue.dequeue());
+            }
+        }
+
+        public class Queue<T> {
+            private Stack<T> enqueueStack;
+            private Stack<T> dequeueStack;
+
+            public Queue() {
+                enqueueStack = new Stack<>();
+                dequeueStack = new Stack<>();
+            }
+
+            //O(1)
+            public void enqueue(T item) {
+                enqueueStack.push(item);
+            }
+
+            //O(n)
+            public T dequeue() {
+                if (isEmpty())
+                    throw new IllegalStateException();
+
+                if(dequeueStack.isEmpty()) {
+                    while (!enqueueStack.isEmpty())
+                        dequeueStack.push(enqueueStack.pop());
+                }
+                return dequeueStack.pop();
+            }
+
+            public boolean isEmpty() {
+                return enqueueStack.isEmpty() && dequeueStack.isEmpty();
+            }
+        }
   
 
 
