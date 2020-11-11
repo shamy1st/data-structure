@@ -290,8 +290,9 @@ Stack | O(1) | O(1)| O(1) | O(1)
 ------|---------|---------|------|---------|-------
 Queue | O(1)    | O(1)    | O(1) | O(1)    | O(1)
 
-
-* **Queue Interface with ArrayDeque** (Double Ended Queue)
+* **Queue Interface**
+  * **with ArrayDeque** (Double Ended Queue)
+  * **with LinkedList** 
 
         public class Main {
             public static void main(String[] args) {
@@ -307,8 +308,6 @@ Queue | O(1)    | O(1)    | O(1) | O(1)    | O(1)
                 queue.peek(); //return front item, if queue is empty return null
             }
         }
-
-* **Queue Interface with LinkedList** 
 
 * **Reverse a Queue** (using Stack)
 
