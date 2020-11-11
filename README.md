@@ -13,10 +13,10 @@ describe the performance (time or space) of an algorithm.
 ### Array
 ![](https://github.com/shamy1st/data-structure/blob/main/images/array.png)
 simplest data structure
-    * **get(index)** - O(1)
-    * **search(value)** - O(n)
-    * **insert** - O(n)
-    * **remove(index)** - O(n)
+  * **get(index)** - O(1)
+  * **search(value)** - O(n)
+  * **insert** - O(n)
+  * **remove(index)** - O(n)
     
         public class Main {
             public static void main(String[] args) {
