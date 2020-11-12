@@ -1158,9 +1158,43 @@ AVL Tree           | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(lo
         }
 
 ### Heap
+
+* **complete** all levels must be filled from left to right.
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-complete-1.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-complete-2.png)
+
+* **incomplete**
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-incomplete-1.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-incomplete-2.png)
+
+* **heap property**
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-property.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-property-invalid.png)
+
+* **bubble up**
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-bubble-up.png)
+
+* **bubble down**
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-bubble-down.png)
+
+* **complexity**
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-insert-Complexity.png)
+
+--                 |        indexing     | search              | add                 | remove
+-------------------|---------------------|---------------------|---------------------|-----------------------
+Heap               | O(log n)            | O(log n)            | O(log n)            | O(log n)
+
 ### Trie
+
+
+
 ### Graph
+
+
+
 ### Undirected Graph
+
+
 
 ## Advanced
 * Advanced Lists
