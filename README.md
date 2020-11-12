@@ -1167,7 +1167,7 @@ AVL Tree           | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(lo
 ![](https://github.com/shamy1st/data-structure/blob/main/images/heap-incomplete-1.png)
 ![](https://github.com/shamy1st/data-structure/blob/main/images/heap-incomplete-2.png)
 
-* **heap property**
+* **heap property** each node greater than or equal to its childs.
 ![](https://github.com/shamy1st/data-structure/blob/main/images/heap-property.png)
 ![](https://github.com/shamy1st/data-structure/blob/main/images/heap-property-invalid.png)
 
@@ -1178,7 +1178,7 @@ AVL Tree           | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(lo
 ![](https://github.com/shamy1st/data-structure/blob/main/images/heap-bubble-down.png)
 
 * **complexity**
-![](https://github.com/shamy1st/data-structure/blob/main/images/heap-insert-Complexity.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-insert-complexity.png)
 
 --                 |        indexing     | search              | add                 | remove
 -------------------|---------------------|---------------------|---------------------|-----------------------
