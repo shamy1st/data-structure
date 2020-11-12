@@ -1001,6 +1001,24 @@ Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n)
 
 ### AVL Tree
 
+* **Rotations**
+  * **Left (LL)**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/left-rotation-1.png)
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/left-rotation-2.png)
+  
+  * **Right (RR)**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/right-rotation-1.png)
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/right-rotation-2.png)
+  
+  * **Left-Right (LR)**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/left-right-rotation-1.png)
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/left-right-rotation-2.png)
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/left-right-rotation-3.png)
+  
+  * **Right-Left (RL)**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/right-left-rotation-1.png)
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/right-left-rotation-2.png)
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/right-left-rotation-3.png)
 
 
 ### Heap
