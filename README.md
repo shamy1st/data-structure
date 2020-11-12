@@ -1012,11 +1012,12 @@ Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n)
 * Advanced Lists
 * Matrix
 * Misc
+* Red-Black Tree
+* B-Tree
+* Splay Tree
+* 2-3 Tree
 * Segment Tree
 * Binary Indexed Tree
 * Suffix Array
 * Suffix Tree
-* Splay Tree
-* B Tree
-* Red-Black Tree
 * K Dimensional Tree
