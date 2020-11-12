@@ -714,6 +714,19 @@ Binary Search Tree | O(-)     | O(log n) | O(log n) | O(log n)
     * **Post-Order**
     ![](https://github.com/shamy1st/data-structure/blob/main/images/post-order.png)
     
+* **Depth**: number of edges from root to the target node. (root depth = 0)
+
+* **Height** the longest path to a leaf. (leaf node height = 0) (Post-Order Traversal)
+
+* **Minimum Value** left left left till find leaf node. O(log n)
+
+* **Maximum Value** right right right till find leaf node. O(log n)
+
+* **Equality** check that two trees are totally equals.
+
+* **Validation** given a binary tree, validate that it is a binary search tree.
+
+
 
 ### AVL Tree
 ### Heap
