@@ -1216,6 +1216,79 @@ Heap               | O(log n)            | O(log n)            | O(log n)       
 * **applications**
   * **heap sort**
   * **priority queue**
+  * **heapify** is transform an array to a heap in place.
+
+        public class Main {
+            public static void main(String[] args) {
+                Integer[] array = {5, 3, 8, 4, 1, 2};
+                CustomHeap.heapify(array);
+                System.out.println(Arrays.toString(array)); //[8, 4, 5, 3, 1, 2]
+            }
+        }
+
+        public class CustomHeap {
+            public static <T extends Number & Comparable<T>> void heapify(T[] array) {
+                int lastParentIndex = array.length / 2 - 1;
+                for(int i=lastParentIndex;i>=0;i--) {
+                    bubbleDown(array, i);
+                }
+            }
+
+            private static <T extends Number & Comparable<T>> void bubbleDown(T[] array, int index) {
+                while(index < array.length && !isValidParent(array, index)) {
+                    swap(array, index, largerChildIndex(array, index));
+                    index = largerChildIndex(array, index);
+                }
+            }
+
+            private static <T extends Number & Comparable<T>> boolean isValidParent(T[] array, int index) {
+                if(!hasLeftChild(array, index))
+                    return true;
+
+                if(!hasRightChild(array, index))
+                    return array[index].compareTo(array[leftIndex(index)]) >= 0;
+
+                return array[index].compareTo(array[leftIndex(index)]) >= 0
+                        && array[index].compareTo(array[rightIndex(index)]) >= 0;
+            }
+
+            private static <T extends Number & Comparable<T>> void swap(T[] array, int index1, int index2) {
+                T temp = array[index1];
+                array[index1] = array[index2];
+                array[index2] = temp;
+            }
+
+            private static <T extends Number & Comparable<T>> int largerChildIndex(T[] array, int index) {
+                if(!hasLeftChild(array, index))
+                    return index;
+
+                if(!hasRightChild(array, index))
+                    return leftIndex(index);
+
+                return (array[leftIndex(index)].compareTo(array[rightIndex(index)]) > 0)
+                        ? leftIndex(index) : rightIndex(index);
+            }
+
+            private static <T extends Number & Comparable<T>> boolean hasLeftChild(T[] array, int index) {
+                return leftIndex(index) < array.length;
+            }
+
+            private static <T extends Number & Comparable<T>> boolean hasRightChild(T[] array, int index) {
+                return rightIndex(index) < array.length;
+            }
+
+            private static int parentIndex(int index) {
+                return (index - 1) / 2;
+            }
+
+            private static int leftIndex(int index) {
+                return 2 * index + 1;
+            }
+
+            private static int rightIndex(int index) {
+                return 2 * index + 2;
+            }
+        }
 
 ### Trie
 
