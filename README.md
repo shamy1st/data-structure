@@ -12,13 +12,14 @@ describe the performance (time or space) of an algorithm.
 
 ### Cheatsheet
 
---                 | indexing | search   | add      | remove(index or value)
--------------------|----------|----------|----------|-----------------------
-Basic Array        | O(1)     | O(n)     | -        | -
-Dynamic Array      | O(1)     | O(n)     | O(n)     | O(n)
-Singly Linked List | O(n)     | O(n)     | O(1)     | O(n)
-Doubly Linked List | O(n)     | O(n)     | O(1)     | O(n)
-Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n)
+average/worst      |        indexing     | search              | add                 | remove(index or value)
+-------------------|---------------------|---------------------|---------------------|-----------------------
+Basic Array        | O(1)                | O(n)                | -                   | -
+Dynamic Array      | O(1)                | O(n)                | O(n)                | O(n)
+Singly Linked List | O(n)                | O(n)                | O(1)                | O(n)
+Doubly Linked List | O(n)                | O(n)                | O(1)                | O(n)
+Binary Search Tree | O(log n) / O(n)     | O(log n) / O(n)     | O(log n) / O(n)     | O(log n) / O(n)
+AVL Tree           | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(log n)
 
 --                 | addFirst | addMiddle | addLast | removeFirst | removeMiddle | removeLast
 -------------------|----------|-----------|---------|-------------|--------------|-----------
@@ -694,9 +695,9 @@ Map | O(1)| O(1)   | O(1)| O(1)        | O(n)
 ### Binary Search Tree
 ![](https://github.com/shamy1st/data-structure/blob/main/images/binary-search-tree.png)
 
---                 | indexing | search   | add      | remove
--------------------|----------|----------|----------|-----------------------
-Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n)
+average/worst      |        indexing | search          | add             | remove(index or value)
+-------------------|-----------------|-----------------|-----------------|-----------------------
+Binary Search Tree | O(log n) / O(n) | O(log n) / O(n) | O(log n) / O(n) | O(log n) / O(n)
 
 * **Traversing**
 
@@ -1000,6 +1001,11 @@ Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n)
   * **2-3 Tree**
 
 ### AVL Tree
+
+
+average/worst      |        indexing     | search              | add                 | remove(index or value)
+-------------------|---------------------|---------------------|---------------------|-----------------------
+AVL Tree           | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(log n)
 
 * **Rotations**
   * **Left (LL)**
