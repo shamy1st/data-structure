@@ -992,6 +992,13 @@ Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n)
 ![](https://github.com/shamy1st/data-structure/blob/main/images/right-skewed.png)
 ![](https://github.com/shamy1st/data-structure/blob/main/images/left-skewed.png)
 
+* **Self-Balancing Trees**
+  * **AVL Tree** (Adelson-Velsky and Landis)
+  * **Red-Black Tree**
+  * **B-Tree**
+  * **Splay Tree**
+  * **2-3 Tree**
+
 ### AVL Tree
 
 
