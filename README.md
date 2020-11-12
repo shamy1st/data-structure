@@ -688,7 +688,14 @@ Map | O(1)| O(1)   | O(1)| O(1)        | O(n)
 ## Non-Linear Data-Structure
 
 ### Binary Tree
+![](https://github.com/shamy1st/data-structure/blob/main/images/binary-tree.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/binary-tree-example.png)
+
 ### Binary Search Tree
+![](https://github.com/shamy1st/data-structure/blob/main/images/binary-search-tree.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/binary-search-tree-complexity.png)
+
+
 ### AVL Tree
 ### Heap
 ### Trie
