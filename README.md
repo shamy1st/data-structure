@@ -30,10 +30,11 @@ Doubly Linked List | O(1)     | O(n)      | O(1)    | O(1)        | O(n)        
 ------|------|-----|------|--------
 Stack | O(1) | O(1)| O(1) | O(1)
 
---            | enqueue | dequeue | peek | isEmpty | isFull
---------------|---------|---------|------|---------|-------
-Queue         | O(1)    | O(1)    | O(1) | O(1)    | O(1)
-PriorityQueue | O(n)    | O(1)    | O(1) | O(1)    | O(1)
+--                    | enqueue     | dequeue     | peek | isEmpty | isFull
+----------------------|-------------|-------------|------|---------|-------
+Queue                 | O(1)        | O(1)        | O(1) | O(1)    | O(1)
+PriorityQueue (Array) | O(n)        | O(1)        | O(1) | O(1)    | O(1)
+PriorityQueue (Heap)  | O(log n)    | O(log n)    | O(1) | O(1)    | O(1)
 
 --  | put | remove | get | containsKey | containsValue
 ----|-----|--------|-----|-------------|--------------
@@ -294,10 +295,11 @@ Stack | O(1) | O(1)| O(1) | O(1)
 ### Queue
 ![](https://github.com/shamy1st/data-structure/blob/main/images/queue.png)
 
---            | enqueue | dequeue | peek | isEmpty | isFull
---------------|---------|---------|------|---------|-------
-Queue         | O(1)    | O(1)    | O(1) | O(1)    | O(1)
-PriorityQueue | O(n)    | O(1)    | O(1) | O(1)    | O(1)
+--                    | enqueue     | dequeue     | peek | isEmpty | isFull
+----------------------|-------------|-------------|------|---------|-------
+Queue                 | O(1)        | O(1)        | O(1) | O(1)    | O(1)
+PriorityQueue (Array) | O(n)        | O(1)        | O(1) | O(1)    | O(1)
+PriorityQueue (Heap)  | O(log n)    | O(log n)    | O(1) | O(1)    | O(1)
 
 * **Queue Interface**
   * **with ArrayDeque** (Double Ended Queue)
@@ -517,6 +519,29 @@ PriorityQueue | O(n)    | O(1)    | O(1) | O(1)    | O(1)
   
   * **with Heap**
   
+        public class PriorityQueue<T extends Number & Comparable<T>> {
+            private Heap<T> heap;
+
+            public PriorityQueue(int capacity) {
+                heap = new Heap<T>(capacity);
+            }
+
+            public void enqueue(T item) {
+                heap.insert(item);
+            }
+
+            public T dequeue() {
+                return heap.remove();
+            }
+
+            public boolean isEmpty() {
+                return heap.isEmpty();
+            }
+
+            public boolean isFull() {
+                return heap.isFull();
+            }
+        }
 
 ### Hashing
 ![](https://github.com/shamy1st/data-structure/blob/main/images/hashtable.png)
@@ -1188,7 +1213,9 @@ Heap               | O(log n)            | O(log n)            | O(log n)       
 * **array index**
 ![](https://github.com/shamy1st/data-structure/blob/main/images/heap-array-index.png)
 
-
+* **applications**
+  * **heap sort**
+  * **priority queue**
 
 ### Trie
 
