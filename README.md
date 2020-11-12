@@ -12,12 +12,13 @@ describe the performance (time or space) of an algorithm.
 
 ### Cheatsheet
 
---                 | indexing | search | add    | remove(index or value)
--------------------|----------|--------|--------|-----------------------
-Basic Array        | O(1)     | O(n)   | -      | -
-Dynamic Array      | O(1)     | O(n)   | O(n)   | O(n)
-Singly Linked List | O(n)     | O(n)   | O(1)   | O(n)
-Doubly Linked List | O(n)     | O(n)   | O(1)   | O(n)
+--                 | indexing | search   | add      | remove(index or value)
+-------------------|----------|----------|----------|-----------------------
+Basic Array        | O(1)     | O(n)     | -        | -
+Dynamic Array      | O(1)     | O(n)     | O(n)     | O(n)
+Singly Linked List | O(n)     | O(n)     | O(1)     | O(n)
+Doubly Linked List | O(n)     | O(n)     | O(1)     | O(n)
+Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n)
 
 --                 | addFirst | addMiddle | addLast | removeFirst | removeMiddle | removeLast
 -------------------|----------|-----------|---------|-------------|--------------|-----------
@@ -695,7 +696,7 @@ Map | O(1)| O(1)   | O(1)| O(1)        | O(n)
 
 --                 | indexing | search   | add      | remove
 -------------------|----------|----------|----------|-----------------------
-Binary Search Tree | O(-)     | O(log n) | O(log n) | O(log n)
+Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n)
 
 * **Traversing**
 
