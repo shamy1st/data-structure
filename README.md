@@ -706,8 +706,14 @@ Binary Search Tree | O(-)     | O(log n) | O(log n) | O(log n)
   ![](https://github.com/shamy1st/data-structure/blob/main/images/depth-first.png)
   
     * **Pre-Order**
+    ![](https://github.com/shamy1st/data-structure/blob/main/images/pre-order.png)
+    
     * **In-Order**
+    ![](https://github.com/shamy1st/data-structure/blob/main/images/in-order.png)
+    
     * **Post-Order**
+    ![](https://github.com/shamy1st/data-structure/blob/main/images/post-order.png)
+    
 
 ### AVL Tree
 ### Heap
