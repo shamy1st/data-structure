@@ -18,8 +18,8 @@ Basic Array        | O(1)                | O(n)                | -              
 Dynamic Array      | O(1)                | O(n)                | O(n)                | O(n)
 Singly Linked List | O(n)                | O(n)                | O(1)                | O(n)
 Doubly Linked List | O(n)                | O(n)                | O(1)                | O(n)
-Binary Search Tree | O(log n) / O(n)     | O(log n) / O(n)     | O(log n) / O(n)     | O(log n) / O(n)
-AVL Tree           | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(log n)
+Binary Search Tree | O(log n)/O(n)       | O(log n)/O(n)       | O(log n)/O(n)       | O(log n)/O(n)
+AVL Tree           | O(log n)/O(log n)   | O(log n)/O(log n)   | O(log n)/O(log n)   | O(log n)/O(log n)
 
 --                 | addFirst | addMiddle | addLast | removeFirst | removeMiddle | removeLast
 -------------------|----------|-----------|---------|-------------|--------------|-----------
