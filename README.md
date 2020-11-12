@@ -1290,6 +1290,11 @@ Heap               | O(log n)            | O(log n)            | O(log n)       
             }
         }
 
+  * **Kth Largest Item**
+    * insert all array items in heap
+    * then remove (k-1) items from heap
+    * the root of heap now is the Kth item
+
 ### Trie
 
 
