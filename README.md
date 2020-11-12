@@ -697,7 +697,17 @@ Map | O(1)| O(1)   | O(1)| O(1)        | O(n)
 -------------------|----------|----------|----------|-----------------------
 Binary Search Tree | O(-)     | O(log n) | O(log n) | O(log n)
 
+* **Traversing**
 
+  * **Breadth First**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/breadth-first.png)
+  
+  * **Depth First**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/depth-first.png)
+  
+    * **Pre-Order**
+    * **In-Order**
+    * **Post-Order**
 
 ### AVL Tree
 ### Heap
