@@ -985,10 +985,21 @@ Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n)
             }
         }
 
+* **Balanced Binary Tree**  abs[ height(left) - height(right) ] <= 1
+
+* **Unbalanced Binary Tree**
+![](https://github.com/shamy1st/data-structure/blob/main/images/unbalanced-binary-tree.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/right-skewed.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/left-skewed.png)
+
 ### AVL Tree
+
+
+
 ### Heap
 ### Trie
 ### Graph
+### Undirected Graph
 
 ## Advanced
 * Advanced Lists
