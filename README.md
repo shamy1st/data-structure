@@ -693,6 +693,11 @@ Map | O(1)| O(1)   | O(1)| O(1)        | O(n)
 ### Binary Search Tree
 ![](https://github.com/shamy1st/data-structure/blob/main/images/binary-search-tree.png)
 
+--                 | indexing | search   | add      | remove
+-------------------|----------|----------|----------|-----------------------
+Binary Search Tree | O(-)     | O(log n) | O(log n) | O(log n)
+
+
 
 ### AVL Tree
 ### Heap
