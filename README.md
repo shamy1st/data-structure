@@ -1184,6 +1184,12 @@ AVL Tree           | O(log n) / O(log n) | O(log n) / O(log n) | O(log n) / O(lo
 -------------------|---------------------|---------------------|---------------------|-----------------------
 Heap               | O(log n)            | O(log n)            | O(log n)            | O(log n)
 
+
+* **array index**
+![](https://github.com/shamy1st/data-structure/blob/main/images/heap-array-index.png)
+
+
+
 ### Trie
 
 
