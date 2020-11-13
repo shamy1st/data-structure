@@ -1214,8 +1214,15 @@ Heap               | O(log n)            | O(log n)            | O(log n)       
 ![](https://github.com/shamy1st/data-structure/blob/main/images/heap-array-index.png)
 
 * **applications**
+
   * **heap sort**
+    * insert all array elments to a heap
+    * remove one by one and put them to the array in order
+    * no you have sorted array
+    
   * **priority queue**
+    * look at PriorityQueue section with Heap
+    
   * **heapify** is transform an array to a heap in place.
 
         public class Main {
