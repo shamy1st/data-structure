@@ -1752,6 +1752,10 @@ Adjacency List   | O(V)      | O(V)       | O(V)      | O(V)          | O(1)    
 
 ### Undirected Graph
 
+* **Dijstra**
+![](https://github.com/shamy1st/data-structure/blob/main/images/dijstra-1.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/dijstra-2.png)
+
 
 
 ## Advanced
