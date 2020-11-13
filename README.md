@@ -1303,6 +1303,8 @@ Heap               | O(log n)            | O(log n)            | O(log n)       
     * the root of heap now is the Kth item
 
 ### Trie
+![](https://github.com/shamy1st/data-structure/blob/main/images/trie.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/trie-complexity.png)
 
 
 
