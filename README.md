@@ -41,6 +41,11 @@ PriorityQueue (Heap)  | O(log n)    | O(log n)    | O(1) | O(1)    | O(1)
 ----|-----|--------|-----|-------------|--------------
 Map | O(1)| O(1)   | O(1)| O(1)        | O(n)
 
+average/worst    | addEdge   | removeEdge | queryEdge | findNeighbors | addNode       | removeNode    | space
+-----------------|-----------|------------|-----------|---------------|---------------|---------------|----------------
+Adjacency Matrix | O(1)/O(1) | O(1)/O(1)  | O(1)/O(1) | O(V)/O(V)     | O(V^2)/O(V^2) | O(V^2)/O(V^2) | O(V^2)/O(V^2)
+Adjacency List   | O(K)/O(V) | O(K)/O(V)  | O(K)/O(V) | O(K)/O(V)     | O(1)/O(1)     | O(V^2)/O(V^2) | O(V + E)/O(V^2)
+
 ## Linear Data-Structure
 
 ### Array
@@ -1481,8 +1486,29 @@ Trie               | O(L)                | O(L)                | O(L)
         }
 
 ### Graph
+![](https://github.com/shamy1st/data-structure/blob/main/images/directed-graph.png)
 
+* **Complexity** if you have dense graph use matrix implementation otherwise use list implementation.
 
+![](https://github.com/shamy1st/data-structure/blob/main/images/dense-graph.png)
+
+average/worst    | addEdge   | removeEdge | queryEdge | findNeighbors | addNode       | removeNode    | space
+-----------------|-----------|------------|-----------|---------------|---------------|---------------|----------------
+Adjacency Matrix | O(1)/O(1) | O(1)/O(1)  | O(1)/O(1) | O(V)/O(V)     | O(V^2)/O(V^2) | O(V^2)/O(V^2) | O(V^2)/O(V^2)
+Adjacency List   | O(K)/O(V) | O(K)/O(V)  | O(K)/O(V) | O(K)/O(V)     | O(1)/O(1)     | O(V^2)/O(V^2) | O(V + E)/O(V^2)
+
+  * **Average**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-complexity-average.png)
+  
+  * **Worst Case**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-complexity-worst.png)
+
+* **Implementation**
+  * **Adjacency Matrix**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-matrix.png)
+  
+  * **Adjacency List**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-list.png)
 
 ### Undirected Graph
 
