@@ -1492,12 +1492,12 @@ Trie               | O(L)                | O(L)                | O(L)
 
 ![](https://github.com/shamy1st/data-structure/blob/main/images/dense-graph.png)
 
-average          | addEdge   | removeEdge | queryEdge | findNeighbors | addNode       | removeNode    | space
+average          | add edge  | remove edge| query edge| find neighbors| add node      | remove node   | space
 -----------------|-----------|------------|-----------|---------------|---------------|---------------|----------------
 Adjacency Matrix | O(1)      | O(1)       | O(1)      | O(V)          | O(V^2)        | O(V^2)        | O(V^2)
 Adjacency List   | O(K)      | O(K)       | O(K)      | O(K)          | O(1)          | O(V^2)        | O(V + E)
 
-worst            | addEdge   | removeEdge | queryEdge | findNeighbors | addNode       | removeNode    | space
+worst            | add edge  | remove edge| query edge| find neighbors| add node      | remove node   | space
 -----------------|-----------|------------|-----------|---------------|---------------|---------------|----------------
 Adjacency Matrix | O(1)      | O(1)       | O(1)      | O(V)          | O(V^2)        | O(V^2)        | O(V^2)
 Adjacency List   | O(V)      | O(V)       | O(V)      | O(V)          | O(1)          | O(V^2)        | O(V^2)
