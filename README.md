@@ -20,6 +20,7 @@ Singly Linked List | O(n)                | O(n)                | O(1)           
 Doubly Linked List | O(n)                | O(n)                | O(1)                | O(n)
 Binary Search Tree | O(log n)/O(n)       | O(log n)/O(n)       | O(log n)/O(n)       | O(log n)/O(n)
 AVL Tree           | O(log n)/O(log n)   | O(log n)/O(log n)   | O(log n)/O(log n)   | O(log n)/O(log n)
+Trie               | -                   | O(L)                | O(L)                | O(L)
 
 --                 | addFirst | addMiddle | addLast | removeFirst | removeMiddle | removeLast
 -------------------|----------|-----------|---------|-------------|--------------|-----------
@@ -1305,6 +1306,10 @@ Heap               | O(log n)            | O(log n)            | O(log n)       
 ### Trie
 ![](https://github.com/shamy1st/data-structure/blob/main/images/trie.png)
 ![](https://github.com/shamy1st/data-structure/blob/main/images/trie-complexity.png)
+
+--                 | search              | add                 | remove
+-------------------|---------------------|---------------------|-----------------------
+Trie               | O(L)                | O(L)                | O(L)
 
 
 
