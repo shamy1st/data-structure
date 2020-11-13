@@ -1530,9 +1530,18 @@ Adjacency List   | O(V)      | O(V)       | O(V)      | O(V)          | O(1)    
   * nodes with outgoing edges should comes first, and nodes without any outgoing edges comes last.
   
   * How it work?
-    1. traverse Depth First and go deep to the last node, add this node to stack.
+    1. traverse Depth First and go deep to the last node, add this node to stack. 
+      * [X -> A -> P]
     2. go back to nodes that this node comes from and push them one by one, but after their children.
+      * push P
+      * push "children of A" then push A
+      * push "children of X", in this case push B but also after push "children of B"
+      * push X
     3. pop all elements from the stack, this is the correct order.
+      * pop X
+      * pop B
+      * pop A
+      * pop P
   
   ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-topological-sort.png)
 
