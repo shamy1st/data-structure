@@ -1523,6 +1523,20 @@ Adjacency List   | O(V)      | O(V)       | O(V)      | O(V)          | O(1)    
   ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-breadth-first-1.png)
   ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-breadth-first-2.png)
   
+* **Topological Sort** the right order that we need to process a nodes of a graph.
+  * like schedule jobs
+  * doesn't produce a unique solution.
+  * only for directed acyclic graphs. acyclic means without cycles.
+  * nodes with outgoing edges should comes first, and nodes without any outgoing edges comes last.
+  
+  * How it work?
+    1. traverse Depth First and go deep to the last node, add this node to stack.
+    2. go back to nodes that this node comes from and push them one by one, but after their children.
+    3. pop all elements from the stack, this is the correct order.
+  
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-topological-sort.png)
+
+
 
 ### Undirected Graph
 
