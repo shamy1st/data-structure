@@ -1492,10 +1492,15 @@ Trie               | O(L)                | O(L)                | O(L)
 
 ![](https://github.com/shamy1st/data-structure/blob/main/images/dense-graph.png)
 
-average/worst    | addEdge   | removeEdge | queryEdge | findNeighbors | addNode       | removeNode    | space
+average          | addEdge   | removeEdge | queryEdge | findNeighbors | addNode       | removeNode    | space
 -----------------|-----------|------------|-----------|---------------|---------------|---------------|----------------
-Adjacency Matrix | O(1)/O(1) | O(1)/O(1)  | O(1)/O(1) | O(V)/O(V)     | O(V^2)/O(V^2) | O(V^2)/O(V^2) | O(V^2)/O(V^2)
-Adjacency List   | O(K)/O(V) | O(K)/O(V)  | O(K)/O(V) | O(K)/O(V)     | O(1)/O(1)     | O(V^2)/O(V^2) | O(V + E)/O(V^2)
+Adjacency Matrix | O(1)      | O(1)       | O(1)      | O(V)          | O(V^2)        | O(V^2)        | O(V^2)
+Adjacency List   | O(K)      | O(K)       | O(K)      | O(K)          | O(1)          | O(V^2)        | O(V + E)
+
+worst            | addEdge   | removeEdge | queryEdge | findNeighbors | addNode       | removeNode    | space
+-----------------|-----------|------------|-----------|---------------|---------------|---------------|----------------
+Adjacency Matrix | O(1)      | O(1)       | O(1)      | O(V)          | O(V^2)        | O(V^2)        | O(V^2)
+Adjacency List   | O(V)      | O(V)       | O(V)      | O(V)          | O(1)          | O(V^2)        | O(V^2)
 
   * **Average**
   ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-complexity-average.png)
@@ -1509,6 +1514,8 @@ Adjacency List   | O(K)/O(V) | O(K)/O(V)  | O(K)/O(V) | O(K)/O(V)     | O(1)/O(1
   
   * **Adjacency List**
   ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-list.png)
+
+
 
 ### Undirected Graph
 
