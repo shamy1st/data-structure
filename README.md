@@ -1515,7 +1515,14 @@ Adjacency List   | O(V)      | O(V)       | O(V)      | O(V)          | O(1)    
   * **Adjacency List**
   ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-list.png)
 
-
+* **Traversals**
+  * **Depth First**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-depth-first.png)
+  
+  * **Breadth First**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-breadth-first-1.png)
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/graph-breadth-first-2.png)
+  
 
 ### Undirected Graph
 
