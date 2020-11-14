@@ -1756,7 +1756,15 @@ Adjacency List   | O(V)      | O(V)       | O(V)      | O(V)          | O(1)    
 ![](https://github.com/shamy1st/data-structure/blob/main/images/dijstra-1.png)
 ![](https://github.com/shamy1st/data-structure/blob/main/images/dijstra-2.png)
 
+* **Cycle Detection**
 
+* **Minimum Spanning Tree**
+![](https://github.com/shamy1st/data-structure/blob/main/images/minimum-spanning-tree-1.png)
+![](https://github.com/shamy1st/data-structure/blob/main/images/minimum-spanning-tree-2.png)
+
+  * **Prim's Algorithm**
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/prim-algorithm-1.png)
+  ![](https://github.com/shamy1st/data-structure/blob/main/images/prim-algorithm-2.png)
 
 ## Advanced
 * Advanced Lists
