@@ -1224,7 +1224,7 @@ Heap               | O(log n)            | O(log n)            | O(log n)       
   * **heap sort**
     * insert all array elments to a heap
     * remove one by one and put them to the array in order
-    * no you have sorted array
+    * now you have sorted array
     
   * **priority queue**
     * look at PriorityQueue section with Heap
