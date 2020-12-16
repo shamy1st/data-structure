@@ -1,5 +1,34 @@
 # Data Structure
 
+* [Big O Notation]()
+* [Array]()
+* [Linked List]()
+* [Stack]()
+* [Queue]()
+* [Hashing]()
+* [Binary Tree]()
+* [Binary Search Tree]()
+* [AVL Tree]()
+* [Heap]()
+* [Trie]()
+* [Graph]()
+* [Undirected Graph]()
+
+Advanced
+* Advanced Lists
+* Matrix
+* Misc
+* Red-Black Tree
+* B-Tree
+* Splay Tree
+* 2-3 Tree
+* Segment Tree
+* Binary Indexed Tree
+* Suffix Array
+* Suffix Tree
+* K Dimensional Tree
+
+
 ### Big O Notation
 ![](https://github.com/shamy1st/data-structure/blob/main/images/big-o.png)
 
