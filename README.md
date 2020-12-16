@@ -1,18 +1,18 @@
 # Data Structure
 
-* [Big O Notation]()
-* [Array]()
-* [Linked List]()
-* [Stack]()
-* [Queue]()
-* [Hashing]()
-* [Binary Tree]()
-* [Binary Search Tree]()
-* [AVL Tree]()
-* [Heap]()
-* [Trie]()
-* [Graph]()
-* [Undirected Graph]()
+* [Big O Notation](https://github.com/shamy1st/data-structure#big-o-notation)
+* [Array](https://github.com/shamy1st/data-structure#array)
+* [Linked List](https://github.com/shamy1st/data-structure#linked-list)
+* [Stack](https://github.com/shamy1st/data-structure#stack)
+* [Queue](https://github.com/shamy1st/data-structure#queue)
+* [Hashing](https://github.com/shamy1st/data-structure#hashing)
+* [Binary Tree](https://github.com/shamy1st/data-structure#binary-tree)
+* [Binary Search Tree](https://github.com/shamy1st/data-structure#binary-search-tree)
+* [AVL Tree](https://github.com/shamy1st/data-structure#avl-tree)
+* [Heap](https://github.com/shamy1st/data-structure#heap)
+* [Trie](https://github.com/shamy1st/data-structure#trie)
+* [Graph](https://github.com/shamy1st/data-structure#graph)
+* [Undirected Graph](https://github.com/shamy1st/data-structure#undirected-graph)
 
 Advanced
 * Advanced Lists
