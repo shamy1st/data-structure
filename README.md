@@ -3,34 +3,34 @@
 * [Big O Notation](https://github.com/shamy1st/data-structure-big-o)
 
 Linear Data-Structure
-* [Array](https://github.com/shamy1st/data-structure-array)
-* [Linked List](https://github.com/shamy1st/data-structure-linkedlist)
-* [Stack](https://github.com/shamy1st/data-structure-stack)
-* [Queue](https://github.com/shamy1st/data-structure-queue)
-* [Hashing](https://github.com/shamy1st/data-structure-hashing)
+1. [Array](https://github.com/shamy1st/data-structure-array)
+2. [Linked List](https://github.com/shamy1st/data-structure-linkedlist)
+3. [Stack](https://github.com/shamy1st/data-structure-stack)
+4. [Queue](https://github.com/shamy1st/data-structure-queue)
+5. [Hashing](https://github.com/shamy1st/data-structure-hashing)
 
 Non-Linear Data-Structure
-* [Binary Tree](https://github.com/shamy1st/data-structure-binary-tree)
-* [Binary Search Tree](https://github.com/shamy1st/data-structure-binary-search-tree)
-* [AVL Tree](https://github.com/shamy1st/data-structure-avl-tree)
-* [Heap](https://github.com/shamy1st/data-structure-heap)
-* [Trie](https://github.com/shamy1st/data-structure-trie)
-* [Graph](https://github.com/shamy1st/data-structure-graph)
-* [Undirected Graph](https://github.com/shamy1st/data-structure-undirected-graph)
+6. [Binary Tree](https://github.com/shamy1st/data-structure-binary-tree)
+7. [Binary Search Tree](https://github.com/shamy1st/data-structure-binary-search-tree)
+8. [AVL Tree](https://github.com/shamy1st/data-structure-avl-tree)
+9. [Heap](https://github.com/shamy1st/data-structure-heap)
+10. [Trie](https://github.com/shamy1st/data-structure-trie)
+11. [Graph](https://github.com/shamy1st/data-structure-graph)
+12. [Undirected Graph](https://github.com/shamy1st/data-structure-undirected-graph)
 
 Advanced
-* Advanced Lists
-* Matrix
-* Misc
-* Red-Black Tree
-* B-Tree
-* Splay Tree
-* 2-3 Tree
-* Segment Tree
-* Binary Indexed Tree
-* Suffix Array
-* Suffix Tree
-* K Dimensional Tree
+13. Advanced Lists
+14. Matrix
+15. Misc
+16. Red-Black Tree
+17. B-Tree
+18. Splay Tree
+19. 2-3 Tree
+20. Segment Tree
+21. Binary Indexed Tree
+22. Suffix Array
+23. Suffix Tree
+24. K Dimensional Tree
 
 ### Cheatsheet
 
