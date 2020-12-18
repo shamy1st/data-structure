@@ -3,6 +3,7 @@
 * [Big O Notation](https://github.com/shamy1st/data-structure-big-o)
 
 Linear Data-Structure
+
 1. [Array](https://github.com/shamy1st/data-structure-array)
 2. [Linked List](https://github.com/shamy1st/data-structure-linkedlist)
 3. [Stack](https://github.com/shamy1st/data-structure-stack)
@@ -10,6 +11,7 @@ Linear Data-Structure
 5. [Hashing](https://github.com/shamy1st/data-structure-hashing)
 
 Non-Linear Data-Structure
+
 6. [Binary Tree](https://github.com/shamy1st/data-structure-binary-tree)
 7. [Binary Search Tree](https://github.com/shamy1st/data-structure-binary-search-tree)
 8. [AVL Tree](https://github.com/shamy1st/data-structure-avl-tree)
@@ -19,6 +21,7 @@ Non-Linear Data-Structure
 12. [Undirected Graph](https://github.com/shamy1st/data-structure-undirected-graph)
 
 Advanced
+
 13. Advanced Lists
 14. Matrix
 15. Misc
